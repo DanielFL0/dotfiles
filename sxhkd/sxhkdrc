@@ -20,7 +20,7 @@ super + Escape
 
 # start browser session
 super + n
-	basilisk
+	firefox
 
 # quit/restart bspwm
 super + alt + {q,r}
