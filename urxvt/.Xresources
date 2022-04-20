@@ -1,0 +1,10 @@
+URxvt.scrollBar: false
+URxvt.background: black
+URxvt.foreground: white
+URxvt.font: xft:MesloLGM\ Nerd\ Font:size=12
+
+URxvt.color1: #00FFFF
+URxvt.color2: #FF0077
+URxvt.color3: #FFFFFF
+URxvt.color4: #E5FF00
+URxvt.color5: #AD58D4
