@@ -1,0 +1,7 @@
+
+[user]
+	name = DanielFL0
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
