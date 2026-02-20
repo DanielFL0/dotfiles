@@ -1,6 +1,7 @@
 
 [user]
 	name = DanielFL0
+	email = jose.saldanafrs@uanl.edu.mx
 [core]
 	editor = nvim
 [init]
