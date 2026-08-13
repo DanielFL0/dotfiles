@@ -25,4 +25,5 @@ set autoindent
 set relativenumber
 set number
 set nobackup
+set belloff=all
 colorscheme catppuccin
