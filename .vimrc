@@ -1,11 +1,28 @@
+if has('win32') || has('win64')
+	set shell=cmd.exe
+	set shellcmdflag=/c
+endif
+
+if has('termguicolors')
+	set termguicolors
+endif
+
+let g:coc_global_extensions = [
+  \ 'coc-pyright',
+  \ 'coc-tsserver',
+  \ 'coc-clangd',
+  \ 'coc-json'
+  \ ]
+
 call plug#begin()
-Plug 'junegunn/seoul256.vim'
+Plug 'catppuccin/nvim', { 'branch': 'vim', 'as': 'catppuccin' }
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 call plug#end()
 
-set nowrap
+syntax on
+filetype indent on
+set autoindent
+set relativenumber
 set number
-set incsearch
-set hlsearch
-set colorcolumn=80
-silent! colorscheme seoul256
+set nobackup
+colorscheme catppuccin

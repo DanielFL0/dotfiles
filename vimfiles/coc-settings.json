@@ -1,0 +1,6 @@
+{
+  "python.formatting.provider": "ruff",
+  "python.linting.enabled": true,
+  "clangd.path": "clangd",
+  "coc.preferences.formatOnSaveFiletypes": ["python", "javascript", "c"]
+}
